@@ -3,9 +3,7 @@ body {
   position: relative;
 }
 
-#joyRideTipContent { display: none; }
-
-.joyRideTipContent { display: none; }
+#joyRideTipContent, [data-joyride] { display: none; }
 
 /* Default styles for the container */
 .joyride-tip-guide {

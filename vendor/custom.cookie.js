@@ -69,4 +69,4 @@
     return false;
   };
 
-})(jQuery, document);
+})(((Zepto) ? Zepto : jQuery), document);
